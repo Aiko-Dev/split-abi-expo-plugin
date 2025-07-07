@@ -1,0 +1,35 @@
+{
+  "name": "split-abi-expo-plugin",
+  "version": "1.0.0",
+  "description": "Very basic plugin to control the split abi property of the gradle build in your Expo app configuration without EAS Build",
+  "main": "lib/withSplitsAbi.js",
+  "types": "lib/withSplitsAbi.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "pnpm biome lint ./src"
+  },
+  "keywords": [
+    "expo",
+    "splits",
+    "abi",
+    "gradle",
+    "plugin",
+    "react-native"
+  ],
+  "author": "Loboooooo14",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.6",
+    "expo": ">=52.0.0 <54.0.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "expo-module-scripts": "^4.1.9"
+  }
+}
