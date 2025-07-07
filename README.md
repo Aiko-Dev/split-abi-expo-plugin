@@ -23,7 +23,7 @@ const config = {
       "split-abi-expo-plugin",
       {
         // See: https://developer.android.com/build/configure-apk-splits#configure-abi-split
-        enable: true // Default: true
+        enable: true, // Default: true
         universalApk: true, // Default: false
         include: ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"], // Default: []
       },
